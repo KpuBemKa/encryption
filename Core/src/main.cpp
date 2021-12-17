@@ -1,14 +1,18 @@
 #include <iostream>
 #include <string.h>
+#include <bitset>
 #include "caesar.h"
 #include "vgn.h"
 #include "caesarKey.h"
 #include "caesarMath.h"
 #include "vgm.h"
+#include "VGNHash.h"
 
-int main(int argc, char *argv[])
+int main(/* int argc, char *argv[] */)
 {
-    std::string decription = argv[1];
+    std::cout << VGNHashEncrypt("nupotveni") << "\n";
+
+    /* std::string decription = argv[1];
     std::string word = argv[2];
 
     if (decription == "-Ecsr")
@@ -61,6 +65,7 @@ int main(int argc, char *argv[])
         // decriptarea cu vigenere modificat
         std::cout << VGMDecrypt(word);
     }
+ */
 
     return 0;
 }

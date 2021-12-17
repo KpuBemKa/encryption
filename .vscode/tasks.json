@@ -11,7 +11,7 @@
 				"/nologo",
 				"${workspaceFolder}\\Core\\src\\*.cpp",
 				"/I",
-				"E:\\dev\\projects\\encryption\\Encryption\\Core\\inc",
+				"${workspaceFolder}\\Core\\inc",
 				"/Fe:",
 				"${workspaceFolder}\\build\\main.exe",
 				"/Fd:",
