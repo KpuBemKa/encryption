@@ -8,11 +8,9 @@
 #include "vgm.h"
 #include "VGNHash.h"
 
-int main(/* int argc, char *argv[] */)
+int main(int argc, char *argv[])
 {
-    std::cout << VGNHashEncrypt("nupotveni") << "\n";
-
-    /* std::string decription = argv[1];
+    std::string decription = argv[1];
     std::string word = argv[2];
 
     if (decription == "-Ecsr")
@@ -65,7 +63,6 @@ int main(/* int argc, char *argv[] */)
         // decriptarea cu vigenere modificat
         std::cout << VGMDecrypt(word);
     }
- */
 
     return 0;
 }
